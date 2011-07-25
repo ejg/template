@@ -1,0 +1,183 @@
+/*--------------------------*/
+/*   Global Elements  	    */
+/*--------------------------*/
+h1,h2,h3 {
+	font-family: georgia, 'palatino linotype', 'book antiqua', serif;
+	font-weight: normal;
+	}
+h1 {
+	font-size: 2.0em;
+	height: 54px;
+	text-align:center;
+	}	
+h2 {
+	font-size: 1.5em;
+	}	
+h3 {	
+	font-size: 1.1em;
+	margin: 7px 0;
+	}
+img {
+	border: 0;
+	}
+p {
+	margin: 10px 0;
+	}
+a {
+	text-decoration: none;
+	}
+ul, ol {
+	padding: 20px 0 20px 40px;
+	}
+/*--------------------------*/
+/* Global Classes           */
+/*--------------------------*/
+.simpleList {
+	list-style: none;
+	padding: 20px 20px 20px 0;	
+	}
+.floatLeft {
+	float: left;
+	}
+.floatLeftPad {
+	float: left;
+	margin: 20px 0 0 15px;
+	}
+.floatRight {
+	float:right;
+	}
+.floatClear {
+	clear: both;
+	}
+.clearRight {
+	clear: right;
+	}
+.clearLeft {
+	clear: left;
+	}
+.border {
+	border: 1px solid #fff;
+	padding: 20px;
+	}
+.imgRight {
+	float: right;
+	margin-left: 15px;
+	}
+.imgLeft {
+	float: left;
+	margin-right: 15px;
+	}
+/*--------------------------*/
+/* page classes             */
+/*--------------------------*/
+.pageWrapper {
+	width: 80%;
+	margin: 0 auto;
+	}
+.header {
+	display:none;
+	}
+.contentWrapper {
+	clear:both;
+	margin-top: 30px;
+	padding-bottom:30px;
+	}
+#portfolio .contentWrapper {
+	width: 110%;
+	}
+.site {
+	position: relative;
+	float:left;
+	height: 240px;
+	width: 184px;
+	margin-right: 20px;
+	}
+.site h3 {
+	font-size:1.0em;
+	color: #262626;
+	}
+.site img {
+	border: 1px solid #262626;
+	}
+.site h4 {
+	display: none;
+	max-width: 300px;
+	background-color:#fff;
+	border: 1px solid #000;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	padding: 10px;
+	}
+.site:hover h4 {
+	display: block;
+	}
+.wide {
+	width: 700px;
+	clear:both;
+	height: auto;
+	margin-bottom: 30px;
+	}
+/*--------------------------*/
+/* navigation               */
+/*--------------------------*/
+ul.navList {
+	display:none;
+	}
+
+/*--------------------------*/
+/* other                    */
+/*--------------------------*/
+.who {
+	overflow:hidden;
+	}
+.who h1 {
+	float:left;
+	}
+.who h2 {
+	float:right;
+	}
+.ss {
+	font-size: 0.7em;
+	vertical-align:top;
+	}
+.top {
+	vertical-align:top;
+	}
+.small {
+	font-size: 0.8em;
+	}
+.cover h4 {
+	margin-bottom: 5px;
+	}
+.cover ol, .cover ul {
+	padding-top: 0;
+	}
+.company {
+	font-size: 1.3em;
+	font-weight:bold;
+	margin: 15px 0 0 0;
+	}
+.date {
+	margin: 0 0 5px 0;
+	}
+.title {
+	font-weight: bold;
+	}
+.title, .product {
+	margin: 0;
+	}
+tools, .job 	{
+	margin: 5px 0 0 0;
+	}
+.edu h2 {
+	margin-top: 20px;
+	color: #222;
+	}
+.edu ul {
+	list-style: none;
+	padding: 10px 0 0 0;
+	}
+	
+	
+	

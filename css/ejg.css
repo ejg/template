@@ -1,0 +1,132 @@
+/*--------------------------*/
+/*   Global Elements  	    */
+/*--------------------------*/
+* {margin: 0;padding: 0;}
+article, aside, details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+html {height: 100%;}
+body {color: #444;font: 75%/1.40 verdana, geneva, arial, sans-serif;}
+h1, h2, h4 {font: normal 1em/1.5 tangerine, georgia, 'palatino linotype', 'book antiqua', serif;}
+header {xxoverflow:hidden;}
+header h1 {font-size: 6.0em;height:54px;text-align:center;padding: 0 5px;float:left;margin: 150px 0 0 -50px;position:relative;z-index:10;}
+header h1 a {color: #444;}
+nav {overflow:hidden;clear:right;}
+header h2 {float:right;margin-top: 178px;width: 168px;}
+h2 {font-size: 3.5em;}	
+h3 {font-size:0.9em;margin: 7px 0;font-weight:normal;}
+h4 {font-weight:bold;font-size:2.5em;}
+section h1 {font-weight:bold;font-size:2.5em;}
+figure {margin-right:30px;}
+figure img {border:1px solid #666;}
+img {border: 0;}
+p {margin: 10px 0;}
+a {text-decoration: none;}
+a {color: #262626;text-decoration:none;}
+p a {text-decoration: underline;}
+a:hover {color:#8e0136;}
+a:hover img {border-color:#aaa;}
+ul, ol {padding: 0 0 20px 40px;}
+input {margin: 2px 0 5px 0;padding: 3px 0;}
+dl {margin: 0;padding-top: 10px;}
+dt {font-weight: bold;float: left; clear: left; width: 8em; xtext-align: right;}
+dd { margin: 0 0 0 90px; padding: 0 0 0.5em 0; height: 1em;}
+/*--------------------------*/
+/* Global Classes           */
+/*--------------------------*/
+.simpleList {list-style: none;padding: 20px 20px 20px 0;	}
+.floatLeft {float: left;}
+.floatLeftPad {float: left;margin: 20px 0 0 15px;}
+.floatRight {float:right;}
+.floatClear {clear: both;}
+.clearRight {clear: right;}
+.clearLeft {clear: left;}
+.border {border: 1px solid #fff;padding: 20px;}
+.imgRight {float: right;margin-left: 15px;}
+.imgLeft {float: left;margin-right: 15px;}
+/*--------------------------*/
+/* page classes             */
+/*--------------------------*/
+.bodyWrapper {width:1200px;background: transparent url(../img/pink_flower.jpg) no-repeat fixed 100px 10px;padding-right:10px;}
+.pageWrapper {width:900px;margin-left:300px;}
+.header {overflow: hidden;}
+* html .header {height: 100%;}
+.contentWrapper {margin-top:50px;padding-bottom:30px;}
+.site {position: relative;float:left;height: 240px;width: 184px;margin-right: 20px;}
+.site a {color: #262626;text-decoration:none;}
+.site img {border: 1px solid #666;}
+.site h4 {display: none;max-width: 300px;background-color:#fff;border: 1px solid #000;position: absolute;top: 50px;left: 10px;font-family:  arial, geneva, verdana, sans-serif;font-weight:normal;font-size:1em;}
+.site h4 a {padding: 10px;display:block;}
+.site:hover h4 {display: block;}
+.wide {width:90%;clear:both;height: auto;margin-bottom: 30px;}
+.wide h3, .superwide h3 {font-size:1.4em;}
+/*--------------------------*/
+/* navigation               */
+/*--------------------------*/
+nav ul {clear: both;list-style: none;padding: 15px 0 0 0;border-top: 1px solid #d9dcd5;width: 500px;float:right;}
+nav ul li {float: left;}
+nav ul li a{display: block;font-weight: bold;color: #97a195;padding: 0 40px 0 0;}
+nav ul li a:hover{color: #262626;}
+#index #indexLink a, #resume #resumeLink a, #portfolio #portfolioLink a {color: #262626;}	
+/*--------------------------*/
+/* other                    */
+/*--------------------------*/
+.who {height:222px;}
+* html .who h1 {width: 230px;}
+* html .who h2 {width: 180px;}
+.ss {font-size: 0.7em;vertical-align:top;}
+.top {vertical-align:top;}
+.small {font-size: 0.8em;}
+.cover h4 {margin-bottom: 5px;}
+.cover ol, .cover ul {padding-top: 0;}
+.company {font-weight:bold;margin: 0;}
+.date {margin: 0 0 5px 0;}
+.title {xxfont-weight: bold;font-size:1.4em;margin: 15px 0 0 0;}
+.product {margin: 0;}
+tools, .job 	{margin: 5px 0 0 0;}
+.edu h2 {margin-top: 20px;color: #222;}
+.edu ul {list-style: none;padding: 10px 0 0 0;}
+.mylist li {margin-bottom: 10px;}
+.mylist li p {margin: 0;font-size: 0.8em;}
+a.ul {text-decoration: underline;}
+ul.homeList {list-style:none;font-size: 1.3em;margin-left:75px;}
+ul.homeList li {margin-bottom: 10px;}
+.superwide {width:80%;height:auto;}
+.superwide p {clear:both;}
+.sl a.ul {margin-right: 15px;}
+.fa {font-size:0.8em;margin-top:70px;}
+.fa p {margin-top:0;}
+ul.contact {list-style:none;float:right;text-align:right;}
+.wide.left img {float:left;margin:0 30px 0 0;}
+.latest {float:left;width:400px;}
+.latest ul {padding-top:0;}
+.site a:hover img {border:1px solid #000;}
+.site a:hover {text-decoration:underline;}
+
+
+.project {margin-bottom:30px;}
+.xxproject a {color: #262626;text-decoration:none;}
+.project figure {float:left;}
+.detailed {overflow:hidden;}
+.detailed h3, .cssmysite h3, .ss h3 {font-size:1.4em;}
+.project.quick {float:left;overflow:visible;}
+.project aside p {margin-top:0;}
+xxsection {clear:both;}
+aside {float:left;width:305px;}
+figure {position:relative;}
+figcaption{position:absolute;background-color:#fff;border:1px solid #666;top:10px;left:5px;display:none;min-width:170px;-moz-box-shadow: 5px 5px 5px #666;-webkit-box-shadow: 5px 5px 5px #666;box-shadow: 5px 5px 5px #666;-xxmoz-border-radius:5px;xxborder-radius: 5px;}
+figcaption {padding:10px;}
+figure:hover figcaption {display:block;}
+figcaption a:hover {text-decoration:none;}
+.ss {font-size:1.1em; float:left;}
+.ss p {clear:left;}
+.flower {float:left;}
+.flower div {background: transparent url(../img/pink_flower.jpg) no-repeat fixed 100px 10px; width: 410px; height: 550px;  clear:left;float:left;}
+.flower div.f2 {background-image: url(../img/purple_flower.jpg);}
+.flower div.f3 {background-image: url(../img/orange_flower.jpg);}
+.flower div.f4 {background-image: url(../img/blue_flower.jpg);}
+
+.cssmysite figure, .ss figure {width:800px;margin-right:0;}
+
+.portfolio {width:800px;margin-left:110px;}
+.op {display:none;}
+#resume .or {display:block;}
+#portfolio .op {display:block;}

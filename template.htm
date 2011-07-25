@@ -1,0 +1,56 @@
+<?php
+$filename = isset($_REQUEST['file']) ? $_REQUEST['file'] : "";
+$pageName = str_replace('.html','',$filename);
+?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--Meta Tags-->
+<link rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Tangerine">
+ <meta charset='utf-8'>
+<!-- FavIcon -->
+<link rel="shortcut icon" href="img/fav_flower.ico" >
+<!--End Meta Tags-->
+<title>template of Emily Gillcoat :: <?=$pageName?></title>
+<!--javascript-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script src="js/minmax.js"></script>
+<![endif]-->
+<!--end javascript-->
+<!--Stylesheets-->
+<link href="./css/ejg.css" rel="stylesheet" >
+<link media="print" href="./css/print.css" rel="stylesheet" >
+<!--End Stylesheets-->
+<!-- GA -->
+</head>
+<body id="<?=$pageName?>">
+<div class="bodyWrapper">
+
+	<div class="pageWrapper">
+		<header>
+			<hgroup class="who">
+				<h1><a href="/git/">Emily Gillcoat</a></h1>
+				<h2>Web Developer</h2>
+			</hgroup>
+			<nav>
+				<ul>
+					<li id="indexLink"><a href="index.html">page1</a></li>
+					<li id="resumeLink"><a href="page2.html">page2</a></li>
+					<li id="portfolioLink"><a href="page3.html">page3</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="contentWrapper">
+				<?php  if (file_exists($filename))
+							include($filename);
+						else
+							include('custom404.html');
+				?>
+		</div><!-- contentWrapper -->
+	</div><!-- pageWrapper -->
+</div><!-- bodyWrapper -->
+</body>
+</html>
